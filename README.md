@@ -35,6 +35,8 @@ python -m http.server 8000
 
 If you use VS Code, the Live Server extension also works well.
 
+-https://tourism-website-omega-gules.vercel.app/
+
 ## Development Notes
 
 - Edit HTML files at the project root.
