@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours Packages - Wanderlust Travels</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Wanderlust</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tours.html" class="active">Tours</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 style="text-align: center; margin-bottom: 2rem;">Available Tour Packages</h1>
+        <div class="tours-list">
+            <style>
+                .tour-item {
+                    display: flex;
+                    background: white;
+                    border: 1px solid #eee;
+                    margin-bottom: 2rem;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+                }
+
+                .tour-item img {
+                    width: 300px;
+                    object-fit: cover;
+                }
+
+                .tour-details {
+                    padding: 1.5rem;
+                    flex: 1;
+                }
+
+                .tour-price {
+                    font-size: 1.5rem;
+                    color: #27ae60;
+                    font-weight: bold;
+                }
+
+                @media (max-width: 768px) {
+                    .tour-item {
+                        flex-direction: column;
+                    }
+
+                    .tour-item img {
+                        width: 100%;
+                        height: 200px;
+                    }
+                }
+            </style>
+
+            <div class="tour-item">
+                <img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Europe Tour">
+                <div class="tour-details">
+                    <h3>European Grand Tour</h3>
+                    <p class="tour-price">$2,500</p>
+                    <p>Duration: 10 Days</p>
+                    <p>Highlights: Paris, Rome, Venice, Amsterdam</p>
+                    <p>Includes: Flights, Hotels, Guided Tours</p>
+                    <button
+                        style="background: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 3px; margin-top: 10px; cursor: pointer;">Book
+                        Now</button>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <img src="https://images.unsplash.com/photo-1596423736733-4f227b615488?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Bali Tour">
+                <div class="tour-details">
+                    <h3>Bali Paradise Escape</h3>
+                    <p class="tour-price">$1,200</p>
+                    <p>Duration: 7 Days</p>
+                    <p>Highlights: Ubud, Kuta Beach, Temples</p>
+                    <p>Includes: Hotel, Breakfast, Transfers</p>
+                    <button
+                        style="background: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 3px; margin-top: 10px; cursor: pointer;">Book
+                        Now</button>
+                </div>
+            </div>
+
+            <div class="tour-item">
+                <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="Africa Safari">
+                <div class="tour-details">
+                    <h3>Kenyan Wildlife Safari</h3>
+                    <p class="tour-price">$3,000</p>
+                    <p>Duration: 8 Days</p>
+                    <p>Highlights: Masai Mara, Lake Nakuru, Nairobi</p>
+                    <p>Includes: Safari Lodges, Game Drives, Meals</p>
+                    <button
+                        style="background: #3498db; color: white; border: none; padding: 8px 15px; border-radius: 3px; margin-top: 10px; cursor: pointer;">Book
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wanderlust Travels. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
